@@ -23,7 +23,6 @@ echo "addnode=108.61.212.198 add" >> stakecube.conf
 echo "addnode=78.141.211.79 add" >> stakecube.conf
 echo "addnode=95.179.209.111 add" >> stakecube.conf
 cd ..
-cd SCCUpdated_1.0.0.1
 stakecubed -daemon
 sleep 10s
 stakecube-cli addnode 95.179.165.19 onetry
